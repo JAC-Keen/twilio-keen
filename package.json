@@ -1,0 +1,26 @@
+{
+  "name": "twilio-keen",
+  "version": "1.0.0",
+  "description": "Example app showing integration with Keen analytics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/kwhinnery/twilio-keen.git"
+  },
+  "keywords": [
+    "twilio",
+    "keenio"
+  ],
+  "author": "Kevin Whinnery",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "keen-js": "^3.4.0",
+    "twilio": "^2.9.0"
+  }
+}
